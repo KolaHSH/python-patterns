@@ -32,7 +32,7 @@ pattern](http://code.activestate.com/recipes/66531/), 告诉我们Borg模式要�
         print conf2.myvalue()
     
 
-不要惊讶，其实是因为在修改myvalue的时候不仅修改了conf.__dict__还修改了Config._we_are_one,所以…
+不要惊讶，其实是因为在修改myvalue的时候不仅修改了conf.__dict__还修改了Config._we_are_one，所以…
 
 然后还有个装饰器版本：
 
