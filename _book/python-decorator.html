@@ -1,0 +1,630 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <title>装饰器模式 · GitBook</title>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.0">
+        
+        
+        
+    
+    <link rel="stylesheet" href="gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="python-facade.html" />
+    
+    
+    <link rel="prev" href="python-composite.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        <li class="header">Python 设计模式</li>
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="./">
+            
+                <a href="./">
+            
+                    
+                    Introduction
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" >
+            
+                <span>
+            
+                    
+                    创建型设计模式
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.1" data-path="python-abstract-factory.html">
+            
+                <a href="python-abstract-factory.html">
+            
+                    
+                    抽象工厂模式
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.2" data-path="python-borg.html">
+            
+                <a href="python-borg.html">
+            
+                    
+                    Borg 模式
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.3" data-path="python-builder.html">
+            
+                <a href="python-builder.html">
+            
+                    
+                    Builder 模式
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.4" data-path="python-object-pool.html">
+            
+                <a href="python-object-pool.html">
+            
+                    
+                    对象池模式
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.5" data-path="python-prototype.html">
+            
+                <a href="python-prototype.html">
+            
+                    
+                    原型模式
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.6" data-path="python-singleton.html">
+            
+                <a href="python-singleton.html">
+            
+                    
+                    单例模式
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" >
+            
+                <span>
+            
+                    
+                    结构型设计模式
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.1" data-path="python-adapter.html">
+            
+                <a href="python-adapter.html">
+            
+                    
+                    Adapter 模式
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.2" data-path="python-bridge.html">
+            
+                <a href="python-bridge.html">
+            
+                    
+                    桥接模式
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.3" data-path="python-composite.html">
+            
+                <a href="python-composite.html">
+            
+                    
+                    组合模式
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="1.3.4" data-path="python-decorator.html">
+            
+                <a href="python-decorator.html">
+            
+                    
+                    装饰器模式
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.5" data-path="python-facade.html">
+            
+                <a href="python-facade.html">
+            
+                    
+                    外观模式
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.6" data-path="python-flyweight.html">
+            
+                <a href="python-flyweight.html">
+            
+                    
+                    享元模式
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.7" data-path="python-proxy.html">
+            
+                <a href="python-proxy.html">
+            
+                    
+                    代理模式
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" >
+            
+                <span>
+            
+                    
+                    行为型设计模式
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.4.1" data-path="python-chain.html">
+            
+                <a href="python-chain.html">
+            
+                    
+                    责任链模式
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.2" data-path="python-command.html">
+            
+                <a href="python-command.html">
+            
+                    
+                    调度模式
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.3" data-path="python-memento.html">
+            
+                <a href="python-memento.html">
+            
+                    
+                    备忘录模式
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.4" data-path="python-observer.html">
+            
+                <a href="python-observer.html">
+            
+                    
+                    观察者模式
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.5" data-path="python-state.html">
+            
+                <a href="python-state.html">
+            
+                    
+                    状态模式
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.6" data-path="python-strategy.html">
+            
+                <a href="python-strategy.html">
+            
+                    
+                    策略模式
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.7" data-path="python-template.html">
+            
+                <a href="python-template.html">
+            
+                    
+                    模板方法模式
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.8" data-path="python-visitor.html">
+            
+                <a href="python-visitor.html">
+            
+                    
+                    访问者模式
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5" >
+            
+                <span>
+            
+                    
+                    其他
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.5.1" data-path="python-null.html">
+            
+                <a href="python-null.html">
+            
+                    
+                    Null 模式
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="." >装饰器模式</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h1 id="python&#x8BBE;&#x8BA1;&#x6A21;&#x5F0F;&#x4E4B;&#x88C5;&#x9970;&#x5668;&#x6A21;&#x5F0F;"><a href="http://dongweiming.github.io/python-decorator.html&quot;Permalink to python&#x8BBE;&#x8BA1;&#x6A21;&#x5F0F;&#x4E4B;&#x88C5;&#x9970;&#x5668;&#x6A21;&#x5F0F;&quot;" target="_blank">python&#x8BBE;&#x8BA1;&#x6A21;&#x5F0F;&#x4E4B;&#x88C5;&#x9970;&#x5668;&#x6A21;&#x5F0F;</a></h1><h2 id="&#x88C5;&#x9970;&#x5668;&#x6A21;&#x5F0F;">&#x88C5;&#x9970;&#x5668;&#x6A21;&#x5F0F;</h2><p>&#x5728;python&#x4E2D;&#x88C5;&#x9970;&#x5668;&#x5DF2;&#x7ECF;&#x7B97;&#x662F;&#x4EE3;&#x7801;&#x7EA7;&#x522B;&#x7684;&#x6A21;&#x5F0F;&#x4E86;&#xFF0C;&#x88C5;&#x9970;&#x5668;&#x8FD9;&#x4E2A;@&#x7B26;&#x53F7;&#x4F1A;&#x6DF1;&#x5165;&#x4F60;&#x6211;&#x5FC3;&#xFF0C;&#x800C;&#x8FD9;&#x4E2A;&#x6280;&#x80FD;&#x4E5F;&#x662F;&#x5199;&#x4EE3;&#x7801;&#x5FC5;&#x5907;&#x4E4B;&#x5927;&#x6280;.&#x589E;&#x52A0;&#x989D;&#x5916;&#x7684;&#x529F;&#x80FD;&#xFF0C;&#x88C5;&#x9970;&#x5668;&#x5176;&#x5B9E;&#x5C31;&#x662F;&#x5728;&#x4F60;&#x6267;&#x884C;&#x7C7B;&#x6216;&#x8005;&#x51FD;&#x6570;&#x4E4B;&#x524D;&#x7ED9;&#x4F60;&#x5C01;&#x88C5;&#x4E86;&#x4E00;&#x5C42;&#x6216;&#x8005;&#x591A;&#x5C42;(&#x591A;&#x4E2A;&#x88C5;&#x9970;&#x5668;&#xFF0C;&#x8FD9;&#x5728;web&#x6846;&#x67B6;&#x4EE3;&#x7801;&#x4E2D;&#x5F88;&#x5E38;&#x89C1;)&#x64CD;&#x4F5C;&#xFF0C;z&#x4F46;&#x662F;&#x4E0D;&#x5F71;&#x54CD;&#x4F60;&#x6700;&#x540E;&#x6267;&#x884C;&#x4EE3;&#x7801;
+&#x5176;&#x5B9E;&#x539F;&#x7406;&#x5C31;&#x662F;&#xFF1A;&#x6709;&#x4E00;&#x4E9B;&#x51FD;&#x6570;&#x6216;&#x8005;&#x7C7B;&#x91CC;&#x9762;&#x6709;&#x4E00;&#x4E9B;&#x6B65;&#x9AA4;&#x662F;&#x4E00;&#x6837;&#x7684;(&#x6BD4;&#x5982;&#x5BF9;&#x6570;&#x636E;&#x7F13;&#x5B58;&#xFF0C;&#x6BD4;&#x5982;&#x52A0;&#x9501;&#x548C;&#x91CA;&#x653E;)&#xFF0C;&#x90A3;&#x4E48;&#x4F60;&#x5C31;&#x53EF;&#x4EE5;&#x628A;&#x8FD9;&#x4E9B;&#x91CD;&#x590D;&#x7684;&#x4E1C;&#x897F;&#x62FF;&#x51FA;&#x6765;&#x653E;&#x5728;&#x88C5;&#x9970;&#x5668;&#x91CC;&#x9762;&#xFF0C;&#x8FD9;&#x6837;&#x6BCF;&#x4E2A;&#x51FD;&#x6570;&#x6216;&#x8005;&#x7C7B;&#x5C31;&#x4E0D;&#x9700;&#x8981;&#x5199;&#x8FD9;&#x6837;&#x591A;&#x7684;&#x4EE3;&#x7801;&#xFF0C;&#x800C;&#x62BD;&#x8C61;&#x51FA;&#x6765;&#x3002;&#x800C;&#x901A;&#x8FC7;&#x8FD9;&#x6837;&#x7684;&#x989D;&#x5916;&#x529F;&#x80FD;&#x53EF;&#x4EE5;&#x8FD8;&#x80FD;&#x8BA9;&#x4F60;&#x6267;&#x884C;&#x7684;&#x51FD;&#x6570;&#x6216;&#x8005;&#x7C7B;&#x8BA1;&#x6570;&#x7B49;</p><h2 id="python&#x7684;&#x4F8B;&#x5B50;">python&#x7684;&#x4F8B;&#x5B50;</h2><p>&#x4E00;&#x65F6;&#x95F4;&#x8FD8;&#x60F3;&#x4E0D;&#x8D77;&#x6765;&#x5E72;&#x5565;&#xFF0C;&#x597D;&#x5427;&#x5199;&#x4E86;&#x4E2A;&#x7F13;&#x5B58;&#x6570;&#x636E;&#x5230;redis&#x7684;&#x88C5;&#x9970;&#x5668;</p><pre><code>from functools import wraps
+from redis import Redis
+redis = Redis()
+
+def cached(timeout=5 * 60):
+    def decorator(f):
+        # wraps&#x5E2E;&#x4F60;&#x5C06;&#x51FD;&#x6570;&#x539F;&#x6765;&#x7684;&#x5C5E;&#x6027;&#x590D;&#x5236;&#x8FC7;&#x6765;
+        @wraps(f)
+        def decorated_function(*args, **kwargs):
+            # &#x4EE5;&#x6267;&#x884C;&#x51FD;&#x6570;&#x7684;&#x53C2;&#x6570;&#x4E3A;&#x952E;
+            key = str(args)
+            rv = redis.get(key)
+            # &#x53D1;&#x73B0;&#x7F13;&#x5B58;&#x8FC7;&#x76F4;&#x63A5;&#x8FD4;&#x56DE;
+            if rv is not None:
+                print &apos;Has match: &apos;, rv
+                return rv
+            rv = f(*args, **kwargs)
+            redis.setex(key, rv, time=timeout)
+            return rv
+        return decorated_function
+    return decorator
+
+@cached()
+def printNumber(num):
+    return num
+
+if __name__ == &apos;__main__&apos;:
+    # &#x6CE8;&#x610F;&#x5217;&#x8868;&#x6570;&#x636E;&#x6709;&#x91CD;&#x590D;
+    for i in [1, 2, 5, 11, 2, 7, 9, 1]:
+        print printNumber(i)</code></pre>
+<p>&#x8BF4;&#x5230;&#x88C5;&#x9970;&#x5668;&#x5C31;&#x8981;&#x63D0;&#x4E00;&#x4E2A;&#x6A21;&#x5757;:
+<a href="http://micheles.googlecode.com/hg/decorator/documentation.html" target="_blank">decorator</a> &#x5B83;&#x662F;
+Michele Simionato &#x4E3A;&#x7B80;&#x5316;python&#x7684;decorator&#x7684;&#x4F7F;&#x7528;&#x96BE;&#x5EA6;&#x800C;&#x5F00;&#x53D1;&#x7684;&#xFF0C;&#x5F3A;&#x70C8;&#x5EFA;&#x8BAE;&#x6DF1;&#x5165;&#x5B66;&#x4E60;</p>
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="python-composite.html" class="navigation navigation-prev " aria-label="Previous page: 组合模式">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="python-facade.html" class="navigation navigation-next " aria-label="Next page: 外观模式">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"装饰器模式","level":"1.3.4","depth":2,"next":{"title":"外观模式","level":"1.3.5","depth":2,"path":"python-facade.md","ref":"python-facade.md","articles":[]},"previous":{"title":"组合模式","level":"1.3.3","depth":2,"path":"python-composite.md","ref":"python-composite.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["livereload"],"pluginsConfig":{"livereload":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"python-decorator.md","mtime":"2016-10-06T01:54:47.000Z","type":"markdown"},"gitbook":{"version":"3.2.0","time":"2016-10-06T01:56:16.113Z"},"basePath":".","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="gitbook/gitbook.js"></script>
+    <script src="gitbook/theme.js"></script>
+    
+        
+        <script src="gitbook/gitbook-plugin-livereload/plugin.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+
