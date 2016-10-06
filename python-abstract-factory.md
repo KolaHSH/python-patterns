@@ -1,4 +1,4 @@
-#  [python设计模式之抽象工厂模式](http://dongweiming.github.io/python-abstract-factory.html "Permalink to python设计模式之抽象工厂模式" )
+#  [python设计模式之抽象工厂模式](http://dongweiming.github.io/python-abstract-factory.html)
 
 ## 抽象工厂模式
 

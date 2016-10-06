@@ -1,4 +1,4 @@
-#  [python设计模式之代理模式](http://dongweiming.github.io/python-proxy.html "Permalinkto python设计模式之代理模式" )
+#  [python设计模式之代理模式](http://dongweiming.github.io/python-proxy.html)
 
 ## 代理模式
 

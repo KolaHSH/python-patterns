@@ -1,4 +1,4 @@
-#  [python设计模式之命令调度模式](http://dongweiming.github.io/python-command.html"Permalink to python设计模式之命令调度模式" )
+#  [python设计模式之命令调度模式](http://dongweiming.github.io/python-command.html)
 
 ## 命令调度模式
 

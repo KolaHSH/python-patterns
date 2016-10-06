@@ -1,4 +1,4 @@
-#  [python设计模式之Null模式](http://dongweiming.github.io/python-null.html"Permalink to python设计模式之Null模式" )
+#  [python设计模式之Null模式](http://dongweiming.github.io/python-null.html)
 
 ## Null模式
 

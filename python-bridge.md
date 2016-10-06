@@ -1,4 +1,4 @@
-#  [python设计模式之桥接模式](http://dongweiming.github.io/python-bridge.html"Permalink to python设计模式之桥接模式" )
+#  [python设计模式之桥接模式](http://dongweiming.github.io/python-bridge.html)
 
 ## 桥接模式
 

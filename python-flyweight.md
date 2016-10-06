@@ -1,4 +1,4 @@
-#  [python设计模式之享元模式](http://dongweiming.github.io/python-flyweight.html"Permalink to python设计模式之享元模式" )
+#  [python设计模式之享元模式](http://dongweiming.github.io/python-flyweight.html)
 
 ## 享元模式
 

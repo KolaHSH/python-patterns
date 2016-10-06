@@ -1,4 +1,4 @@
-#  [python设计模式之策略模式](http://dongweiming.github.io/python-strategy.html"Permalink to python设计模式之策略模式" )
+#  [python设计模式之策略模式](http://dongweiming.github.io/python-strategy.html)
 
 ## 策略模式
 

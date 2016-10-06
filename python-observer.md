@@ -1,4 +1,4 @@
-#  [python设计模式之观察者模式](http://dongweiming.github.io/python-observer.html"Permalink to python设计模式之观察者模式" )
+#  [python设计模式之观察者模式](http://dongweiming.github.io/python-observer.html)
 
 ## 观察者模式
 

@@ -1,4 +1,4 @@
-#  [python设计模式之单例模式](http://dongweiming.github.io/python-singleton.html"Permalink to python设计模式之单例模式" )
+#  [python设计模式之单例模式](http://dongweiming.github.io/python-singleton.html)
 
 ## 单例模式
 

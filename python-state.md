@@ -1,4 +1,4 @@
-#  [python设计模式之状态模式](http://dongweiming.github.io/python-state.html "Permalinkto python设计模式之状态模式" )
+#  [python设计模式之状态模式](http://dongweiming.github.io/python-state.html)
 
 ## State模式
 

@@ -1,4 +1,4 @@
-#  [python设计模式之装饰器模式](http://dongweiming.github.io/python-decorator.html"Permalink to python设计模式之装饰器模式" )
+#  [python设计模式之装饰器模式](http://dongweiming.github.io/python-decorator.html)
 
 ## 装饰器模式
 

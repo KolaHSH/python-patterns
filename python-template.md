@@ -1,4 +1,4 @@
-#  [python设计模式之模板方法模式](http://dongweiming.github.io/python-template.html"Permalink to python设计模式之模板方法模式" )
+#  [python设计模式之模板方法模式](http://dongweiming.github.io/python-template.html)
 
 ## 模板方法模式
 

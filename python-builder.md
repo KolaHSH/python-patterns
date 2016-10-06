@@ -1,4 +1,4 @@
-#  [python设计模式之Builder模式](http://dongweiming.github.io/python-builder.html"Permalink to python设计模式之Builder模式" )
+#  [python设计模式之Builder模式](http://dongweiming.github.io/python-builder.html)
 
 ## Builder模式
 

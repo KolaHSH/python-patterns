@@ -1,4 +1,4 @@
-#  [python设计模式之责任链模式](http://dongweiming.github.io/python-chain.html"Permalink to python设计模式之责任链模式" )
+#  [python设计模式之责任链模式](http://dongweiming.github.io/python-chain.html)
 
 ## 责任链模式
 

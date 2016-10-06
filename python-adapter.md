@@ -1,4 +1,4 @@
-#  [python设计模式之Adapter模式](http://dongweiming.github.io/python-adapter.html"Permalink to python设计模式之Adapter模式" )
+#  [python设计模式之Adapter模式](http://dongweiming.github.io/python-adapter.html)
 
 ## 适应模式
 

@@ -1,4 +1,4 @@
-#  [python设计模式之对象池模式](http://dongweiming.github.io/python-object-pool.html"Permalink to python设计模式之对象池模式" )
+#  [python设计模式之对象池模式](http://dongweiming.github.io/python-object-pool.html)
 
 ## 对象池模式
 

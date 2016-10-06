@@ -1,4 +1,4 @@
-#  [python设计模式之外观模式](http://dongweiming.github.io/python-facade.html"Permalink to python设计模式之外观模式" )
+#  [python设计模式之外观模式](http://dongweiming.github.io/python-facade.html)
 
 ## 外观模式
 

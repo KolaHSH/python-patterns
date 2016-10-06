@@ -1,4 +1,4 @@
-#  [python设计模式之备忘录模式](http://dongweiming.github.io/python-memento.html"Permalink to python设计模式之备忘录模式" )
+#  [python设计模式之备忘录模式](http://dongweiming.github.io/python-memento.html)
 
 ## Memento模式
 

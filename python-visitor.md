@@ -1,4 +1,4 @@
-#  [python设计模式之访问者模式](http://dongweiming.github.io/python-visitor.html"Permalink to python设计模式之访问者模式" )
+#  [python设计模式之访问者模式](http://dongweiming.github.io/python-visitor.html)
 
 ## 访问者模式
 

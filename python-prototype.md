@@ -1,4 +1,4 @@
-#  [python设计模式之原型模式](http://dongweiming.github.io/python-pototype.html"Permalink to python设计模式之原型模式" )
+#  [python设计模式之原型模式](http://dongweiming.github.io/python-pototype.html)
 
 ## Pototype模式
 

@@ -1,4 +1,4 @@
-#  [python设计模式之Borg模式](http://dongweiming.github.io/python-borg.html"Permalink to python设计模式之Borg模式" )
+#  [python设计模式之Borg模式](http://dongweiming.github.io/python-borg.html)
 
 ## Borg模式
 
